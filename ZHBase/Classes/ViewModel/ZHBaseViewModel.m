@@ -1,23 +1,23 @@
 //
-//  ZHViewModel.m
+//  ZHBaseViewModel.m
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
 //  Copyright © 2017年 韩旭. All rights reserved.
 //
 
-#import "ZHViewModel.h"
+#import "ZHBaseViewModel.h"
 typedef NS_ENUM(NSInteger, ZhNetWorkError){
     ZHPhoneError = 0,
     ZHSmsCodeError
 };
-@implementation ZHViewModel
+@implementation ZHBaseViewModel
 
 
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     
-    ZHViewModel *viewModel = [super allocWithZone:zone];
+    ZHBaseViewModel *viewModel = [super allocWithZone:zone];
     
     if (viewModel) {
         

@@ -1,5 +1,5 @@
 //
-//  ZHViewModel.h
+//  ZHBaseViewModel.h
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
@@ -18,6 +18,6 @@ typedef enum : NSUInteger {
     LSRefreshUI,
 } LSRefreshDataStatus;
 
-@interface ZHViewModel : NSObject <ZHViewModelProtocol>
+@interface ZHBaseViewModel : NSObject <ZHViewModelProtocol>
 
 @end
