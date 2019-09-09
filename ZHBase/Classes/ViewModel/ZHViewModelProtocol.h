@@ -6,15 +6,13 @@
 //  Copyright © 2017年 韩旭. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "ReactiveCocoa.h"
+
 @protocol ZHViewModelProtocol <NSObject>
 
 @optional
 
 - (instancetype)initWithModel:(id)model;
 
-@property (nonatomic, strong, readonly) RACSubject *errors;
 
 @property (nonatomic, copy) NSString *currentVCName;
 /**
