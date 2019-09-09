@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 #import "ZHTableViewCellProtocol.h"
-@interface ZHTableViewCell : UITableViewCell <ZHTableViewCellProtocol>
+@interface ZHBaseTableViewCell : UITableViewCell <ZHTableViewCellProtocol>
 @end
