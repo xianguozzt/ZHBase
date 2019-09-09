@@ -1,5 +1,5 @@
 //
-//  ZHScrollView.h
+//  ZHBaseScrollView.h
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
@@ -7,6 +7,6 @@
 //
 #import <UIKit/UIKit.h>
 #import "ZHScrollViewProtocol.h"
-@interface ZHScrollView : UIScrollView <ZHScrollViewProtocol>
+@interface ZHBaseScrollView : UIScrollView <ZHScrollViewProtocol>
 
 @end

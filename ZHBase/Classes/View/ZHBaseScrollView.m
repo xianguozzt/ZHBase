@@ -1,16 +1,16 @@
 //
-//  ZHView.m
+//  ZHBaseScrollView.m
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
 //  Copyright © 2017年 韩旭. All rights reserved.
 //
 
-#import "ZHScrollView.h"
+#import "ZHBaseScrollView.h"
 
-@interface ZHScrollView()
+@interface ZHBaseScrollView()
 @end
-@implementation ZHScrollView
+@implementation ZHBaseScrollView
 
 /*
 // Only override drawRect: if you perform custom drawing.
