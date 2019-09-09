@@ -1,5 +1,5 @@
 //
-//  ZHView.h
+//  ZHBaseView.h
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
@@ -8,6 +8,6 @@
 #import <UIKit/UIKit.h>
 #import "ZHViewProtocol.h"
 
-@interface ZHView : UIView <ZHViewProtocol>
+@interface ZHBaseView : UIView <ZHViewProtocol>
 @property(nonatomic, assign) CGSize intrinsicContentSize;
 @end
