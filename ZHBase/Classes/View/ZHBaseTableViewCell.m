@@ -1,15 +1,15 @@
 //
-//  ZHTableViewCell.m
+//  ZHBaseTableViewCell.m
 //  zhonghe
 //
 //  Created by 韩旭 on 2017/9/15.
 //  Copyright © 2017年 韩旭. All rights reserved.
 //
 
-#import "ZHTableViewCell.h"
+#import "ZHBaseTableViewCell.h"
 
 
-@implementation ZHTableViewCell
+@implementation ZHBaseTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code
